@@ -1,5 +1,5 @@
-import Logo from "./Logo";
-import AppNav from "./AppNav";
+import Logo from "../Logo/Logo";
+import AppNav from "../AppNav/AppNav";
 import styles from "./Sidebar.module.css";
 function Sidebar() {
   return (
