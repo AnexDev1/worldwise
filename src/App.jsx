@@ -8,6 +8,7 @@ import Login from "./pages/Login/Login";
 import { useEffect, useState } from "react";
 import CityList from "./components/CityList/CityList";
 import CountryList from "./components/CountryList/CountryList";
+import City from "./components/City/City";
 function App() {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -41,6 +42,7 @@ function App() {
             path="cities"
             element={<CityList cities={cities} isLoading={isLoading} />}
           />
+          <Route path="cities/:id" element={<City />} />
           <Route
             path="countries"
             element={<CountryList cities={cities} isLoading={isLoading} />}
