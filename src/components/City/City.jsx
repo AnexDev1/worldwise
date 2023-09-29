@@ -24,7 +24,6 @@ function City() {
 
   const lat = searchParams.get("lat");
   const lng = searchParams.get("lng");
-  console.log(id);
   return (
     <h1>
       City {id}
