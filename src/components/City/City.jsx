@@ -20,6 +20,7 @@ function City() {
 
   const { cityName, emoji, date, notes } = currentCity;
   const { id } = useParams();
+  console.log(`${id} useparams id`);
   const [searchParams, setSearchParams] = useSearchParams();
 
   const lat = searchParams.get("lat");
