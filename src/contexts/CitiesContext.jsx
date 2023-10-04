@@ -25,8 +25,8 @@ function CitiesProvider({ children }) {
     try {
       setIsLoading(true);
       const res = await fetch(`http://localhost:8000/cities/${id}`);
-      const data = await res.json();
-      setCurrentCity(data);
+      const city = await res.json();
+      setCurrentCity(city);
     } catch (err) {
       console.error(err);
     } finally {
@@ -38,6 +38,7 @@ function CitiesProvider({ children }) {
       value={{
         cities,
         currentCity,
+        setCurrentCity,
         isLoading,
         getCity,
       }}
