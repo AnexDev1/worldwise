@@ -1,40 +1,28 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Jimma",
+      "country": "Ethiopia",
+      "emoji": "🇪🇹",
+      "date": "2023-10-06T13:13:48.140Z",
+      "notes": "this is the place i was born and raised to become the senior programmer",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "7.719156814632175",
+        "lng": "36.88659667968751"
       },
-      "id": 73930385
+      "id": 1
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "cityName": "Addis Ababa",
+      "country": "Ethiopia",
+      "emoji": "🇪🇹",
+      "date": "2023-10-06T13:14:28.979Z",
+      "notes": "this is where i first landed my first developer job and gained my first insight on how the life of a developer looks about ",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "9.026152779146141",
+        "lng": "38.78173828125001"
       },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+      "id": 2
     }
   ]
 }
