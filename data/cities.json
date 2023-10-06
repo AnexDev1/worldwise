@@ -23,6 +23,30 @@
         "lng": "38.78173828125001"
       },
       "id": 2
+    },
+    {
+      "cityName": "Waterville",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2023-10-06T13:18:10.218Z",
+      "notes": "this is where i started my first life abroad and alone .",
+      "position": {
+        "lat": "47.45780853075031",
+        "lng": "-120.03662109375"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Qinglong",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2023-10-06T13:19:30.346Z",
+      "notes": "i met my first wife in vacation inside china ",
+      "position": {
+        "lat": "40.3141500550377",
+        "lng": "118.9220427278115"
+      },
+      "id": 4
     }
   ]
 }
