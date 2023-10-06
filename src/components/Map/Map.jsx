@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MapContainer,
   TileLayer,
@@ -24,7 +24,7 @@ function Map() {
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-const[mapLat, mapLng]= useUrlPosition()
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function () {
