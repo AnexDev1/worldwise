@@ -47,6 +47,54 @@
         "lng": "118.9220427278115"
       },
       "id": 4
+    },
+    {
+      "cityName": "Yeniseysk",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-10-06T13:33:37.322Z",
+      "notes": "where i learned how to make bombs",
+      "position": {
+        "lat": "61.39671887310414",
+        "lng": "85.78125"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Riyadh",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-10-06T13:35:31.889Z",
+      "notes": "where i met my children's mom",
+      "position": {
+        "lat": "24.886436490787712",
+        "lng": "47.13134765625"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Brasilia",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2023-10-06T13:36:53.766Z",
+      "notes": "where i met the cartel",
+      "position": {
+        "lat": "-15.538375926292048",
+        "lng": "-47.63671875000001"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2021-04-14T07:16:08.000Z",
+      "notes": "i visited london to see the famous emirates stadium and meet arsenal players for photo shoot",
+      "position": {
+        "lat": "51.50190410761811",
+        "lng": "-0.10986328125000001"
+      },
+      "id": 8
     }
   ]
 }
