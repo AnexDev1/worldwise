@@ -95,6 +95,54 @@
         "lng": "-0.10986328125000001"
       },
       "id": 8
+    },
+    {
+      "cityName": "Quimili",
+      "country": "Argentina",
+      "emoji": "🇦🇷",
+      "date": "2023-10-08T09:51:28.840Z",
+      "notes": "place to visit when alone",
+      "position": {
+        "lat": "-26.82407078047018",
+        "lng": "-61.87500000000001"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "Puerto Lopez",
+      "country": "Colombia",
+      "emoji": "🇨🇴",
+      "date": "2023-10-08T09:52:38.261Z",
+      "notes": "place where cocaine was invented and supplied ",
+      "position": {
+        "lat": "3.7765593098768635",
+        "lng": "-73.12500000000001"
+      },
+      "id": 10
+    },
+    {
+      "cityName": "Xudun",
+      "country": "Somalia",
+      "emoji": "🇸🇴",
+      "date": "2023-10-08T09:54:44.692Z",
+      "notes": "somai gorobet hager",
+      "position": {
+        "lat": "9.318990192397917",
+        "lng": "47.43896484375"
+      },
+      "id": 11
+    },
+    {
+      "cityName": "Sinnar",
+      "country": "Sudan (the)",
+      "emoji": "🇸🇩",
+      "date": "2023-10-08T09:55:54.109Z",
+      "notes": "idk where this is",
+      "position": {
+        "lat": "13.389619591747607",
+        "lng": "33.66210937500001"
+      },
+      "id": 12
     }
   ]
 }

@@ -19,6 +19,7 @@ function reducer(state, action) {
       return {
         ...state,
         cities: [...state.cities, action.payload],
+        isLoading: false,
         currentCity: action.payload,
       };
     case "cities/deleted":
