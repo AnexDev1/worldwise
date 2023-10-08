@@ -23,15 +23,15 @@ export function convertToEmoji(countryCode) {
 function Form() {
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");
+  const [notes, setNotes] = useState("");
+  const [emoji, setEmoji] = useState();
+  const [date, setDate] = useState(new Date());
+  const [geocodingError, setGeocodingError] = useState("");
+  const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
   const navigate = useNavigate();
   const { createCity, isLoading } = useCities();
-  const [date, setDate] = useState(new Date());
-  const [notes, setNotes] = useState("");
   const [lat, lng] = useUrlPosition();
-  const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
-  const [emoji, setEmoji] = useState();
 
-  const [geocodingError, setGeocodingError] = useState("");
   useEffect(
     function () {
       if (!lng && !lat) return;
@@ -51,7 +51,6 @@ function Form() {
           setCityName(data.city || data.locality || "");
           setCountry(data.countryName);
           setEmoji(convertToEmoji(data.countryCode));
-          console.log(data);
         } catch (error) {
           console.error(error);
           setGeocodingError(error.message);
