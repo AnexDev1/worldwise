@@ -18,15 +18,11 @@ export default function Homepage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
-        {!isAuthenticated ? (
-          <Link to="/login" className="cta">
+        {
+          <Link to={`${!isAuthenticated ? "/login" : "/app"}`} className="cta">
             Start tracking now
           </Link>
-        ) : (
-          <Link to="/app" className="cta">
-            Start tracking now
-          </Link>
-        )}
+        }
       </section>
     </main>
   );
