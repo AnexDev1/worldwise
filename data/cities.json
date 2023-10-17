@@ -143,6 +143,18 @@
         "lng": "33.66210937500001"
       },
       "id": 12
+    },
+    {
+      "cityName": "Jimma",
+      "country": "Ethiopia",
+      "emoji": "🇪🇹",
+      "date": "2023-10-17T11:13:54.682Z",
+      "notes": "A place where dumness is fabricated",
+      "position": {
+        "lat": "7.677053526079679",
+        "lng": "36.84529066085816"
+      },
+      "id": 13
     }
   ]
 }
